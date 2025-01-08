@@ -50,6 +50,7 @@
 .title{
     text-align: center;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .title >h1{
@@ -125,4 +126,40 @@
 .party-image{
     text-align: center;
     /* margin-top: 30px; */
+}
+
+.hotel{
+    height: 500px;
+    width: 1650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    margin: 100px auto;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+}
+
+.hotel-details{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.red{
+    color: red;
+
+}
+
+button{
+    border-radius: 8px;
+    padding: 12px 25px 12px 25px;
+    background: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 50px;
 }
