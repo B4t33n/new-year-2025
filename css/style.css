@@ -384,3 +384,35 @@ text-align: left;
     border: none;
     border-radius: 50px;
 }
+
+.footer{
+    background: rgb(7, 2, 17);
+    height: 500px;
+    color: white;
+    margin-top: 100px;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.icon{
+    text-align: center;
+    margin-top: 90px;
+}
+
+.icon>img{
+    padding: 10px;
+    height: 40px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    margin-top: 170px;
+    font-size: small;
+    font-weight: 400;
+}
