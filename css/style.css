@@ -238,3 +238,67 @@ button{
     margin-bottom: 30px;
 }
 
+.holyday{
+    height: 600px;
+    width: 1650px;
+    margin: 100px auto;
+}
+.holyday-title{
+    text-align: center;
+}
+
+.holyday-title>h4{
+    color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 17px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.holyday-title>p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.holyday-title>h1{
+    font-family: Merriweather;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 70px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.dis{
+    /* display: flex; */
+    /* justify-content: end; */
+    /* align-items: center; */
+    position: relative;
+}
+
+.dis>img{
+    position: absolute;
+}
+
+.holyday-title>img{
+    text-align: right;
+}
+
+.box-style{
+    background-image: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    text-align: left;
+}
+
+
+.box-style>img{
+    height: 500px;
+}
